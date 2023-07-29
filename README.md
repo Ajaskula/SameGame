@@ -1,4 +1,4 @@
-# GameOfLifeJC
+# SameGame
 This project involves creating a program that executes commands in a single-player game called SameGame. The game is played on a rectangular board divided into cells arranged in rows and columns.
 
 Game Rules
