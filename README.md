@@ -1,7 +1,7 @@
 # SameGame
 This project involves creating a program that executes commands in a single-player game called SameGame. The game is played on a rectangular board divided into cells arranged in rows and columns.
 
-Game Rules
+# Game Rules
 Each cell on the board is either empty or contains a block of a specific type.
 The player can remove groups of adjacent blocks of the same type from the board.
 A group of blocks can only be removed if it contains at least two blocks.
@@ -44,10 +44,10 @@ The character '.' represents an empty cell.
 The digits '0' to '0' + TYPES - 1 represent different block types.
 The board described by the input data is well-ordered. There is no block below an empty cell, and there are no non-empty columns to the left of an empty column.
 
-Output Format
+# Output Format
 The output format of the program is the same as the input format, representing the new state of the board after executing the player's command.
 
-Examples
+# Examples
 Below are examples of the program's output when compiled with the command:
 
 gcc @opcje -DWIERSZE=10 -DKOLUMNY=15 -DRODZAJE=4 zadanie2.c -o zadanie2
