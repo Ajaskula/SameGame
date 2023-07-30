@@ -50,7 +50,9 @@ The output format of the program is the same as the input format, representing t
 # Examples
 Below are examples of the program's output when compiled with the command:
 
+'''
 gcc @opcje -DWIERSZE=10 -DKOLUMNY=15 -DRODZAJE=4 zadanie2.c -o zadanie2
+'''
 Input data files with example commands are provided as .in files, and the expected output for each example is provided as .out files.
 
 For the input data in the file przyklad1_8_9.in, the correct output when the program is executed with arguments 8 and 9 is in przyklad1_8_9.out.
